@@ -1,6 +1,6 @@
 <h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey! Nice to see you.</h1>
 
-<p>Welcome 😊! </br> I'm Paul, Software Engineer from <b><em>Douala, Cameroon</em></b> <img src="https://img.icons8.com/fluency/48/000000/cameroon-circular.png" width="15"/> .</p>
+<p>Welcome 😊! </br> I'm Paul, Software Engineer from <b><em>Douala, Cameroon</em></b> <img src="./assets/img/cameroon.png" width="18"/></p>
 
 ```javascript
 const bpsmartdesign = {
@@ -51,7 +51,7 @@ const bpsmartdesign = {
 
 
 ------------
-<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: Saturday, April 23, 9:58 AM GMT+1</p>
+<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: Saturday, April 23, 10:12 AM GMT+1</p>
 <p align="center">
   <img src="https://github.com/bpsmartdesign/bpsmartdesign/workflows/README%20build/badge.svg" />
   <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=bpsmartdesign">
