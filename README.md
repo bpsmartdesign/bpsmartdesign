@@ -25,6 +25,7 @@ const bpsmartdesign = {
   challenge: "I am doing an admin panel both for (react, umi, typescript, tailwind) and (vue js, typescript, tailwind)"
 }
 ```
+
 <h3>Things I code with ...</h3>
 <p>
   <img  height="20" alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
@@ -59,8 +60,7 @@ const bpsmartdesign = {
 <a href="https://twitter.com/bpsmartdesign"><img src="https://img.shields.io/twitter/follow/bpsmartdesign?label=Follow&style=social"></a>
 <a href="https://twitter.com/bpsmartdesign"><img src="https://img.shields.io/github/followers/bpsmartdesign?style=social"></a>
 
-
-------------
+---
 
 <p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: Saturday, April 23, 11:49 AM GMT+1</p>
 <p align="center">
