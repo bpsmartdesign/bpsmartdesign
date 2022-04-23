@@ -1,6 +1,6 @@
 <h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey! Nice to see you.</h1>
 
-<p>Welcome 😊! </br> I'm Paul, Software Engineer from <b><em>Douala, Cameroon</em></b> <img src="./assets/img/cameroon.png" width="18"/></p>
+<p>Welcome 😊! </br> I'm Paul, Software Engineer from <b><em><u>Douala, Cameroon</u></em></b> <img src="./assets/img/cameroon.png" width="18"/></p>
 
 ```javascript
 const bpsmartdesign = {
@@ -9,8 +9,8 @@ const bpsmartdesign = {
   askMeAbout: ["web dev", "tech", "app dev", "mobile dev", "chess"],
   technologies: {
         frontEnd: {
-          React: ["React Js", "Umi", "Next"],
-          Vue: ["Vue Js", "Vuex",  "Nuxt"],
+          React: ["React Js", "Umi", "Next", ...],
+          Vue: ["Vue Js", "Vuex",  "Nuxt", ...],
           misc: ["Tailwind", "Ant design", "Vuetify", "i18n", "Figma", "Photoshop", ...]
         },
         backEnd: ["Node", "Express", "laravel"],
@@ -51,17 +51,22 @@ const bpsmartdesign = {
 
 <h3>Github stats ...</h3>
 <p>
-  <img alt="bpsmartdesign's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=bpsmartdesign&count_private=true&show_icons=true&theme=onedark" />
-  <span> </span>
   <img height="195" alt="bpsmartdesign's Top langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bpsmartdesign&count_private=true&&theme=onedark&hide=css,html,php,blade&langs_count=3" />
+  <img alt="bpsmartdesign's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=bpsmartdesign&count_private=true&show_icons=true&theme=onedark" />
 </p>
+
+<h3>Get In touch ...</h3>
+<a href="https://twitter.com/bpsmartdesign"><img src="https://img.shields.io/twitter/follow/bpsmartdesign?label=Follow&style=social"></a>
+<a href="https://twitter.com/bpsmartdesign"><img src="https://img.shields.io/github/followers/bpsmartdesign?style=social"></a>
+
 
 ------------
 
-<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: Saturday, April 23, 11:06 AM GMT+1</p>
+<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: Saturday, April 23, 11:49 AM GMT+1</p>
 <p align="center">
   <img src="https://github.com/bpsmartdesign/bpsmartdesign/workflows/README%20build/badge.svg" />
   <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=bpsmartdesign">
   <img alt="Stars" src="https://img.shields.io/github/stars/bpsmartdesign/bpsmartdesign?style=flat-square&labelColor=343b41"/>
   <img alt="Forks" src="https://img.shields.io/github/forks/bpsmartdesign/bpsmartdesign?style=flat-square&labelColor=343b41"/>
+  <img alt="Forks" src="https://visitor-badge.glitch.me/badge?page_id=bpsmartdesign.visitor-badge"/>
 </p>
