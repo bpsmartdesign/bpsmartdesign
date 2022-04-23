@@ -6,7 +6,7 @@
 const bpsmartdesign = {
   pronouns: "He" | "Him",
   code: [Javascript, Typescript, HTML, CSS, Php],
-  askMeAbout: ["web dev", "tech", "app dev", "mobile dev", "chess],
+  askMeAbout: ["web dev", "tech", "app dev", "mobile dev", "chess"],
   technologies: {
         frontEnd: {
           React: ["React Js", "Umi", "Next"],
@@ -20,13 +20,13 @@ const bpsmartdesign = {
         mobileApp: {
           cross: ["Android Development", "React Native"]
         },
-        devOps: ["Azure", "Docker🐳" "Nginx"],
+        devOps: ["Azure", "Docker🐳", "Nginx"],
         design: ["Figma", "Photoshop"],
         databases: ["PostgreSQL", "MySql", "sqlite"],
         misc: ["Firebase", "Socket.IO", "SuiteApp"]
     },
   architecture: ["microservices", "event-driven", "design system pattern", "MVC"],
-  techCommunities: _{
+  techCommunities: {
     _coorganizer: "Think Dev io",
     _speaking: "French, English",
     _portfolio: "https://bpsmartdesign.tk"
@@ -60,7 +60,7 @@ const bpsmartdesign = {
 
 
 ------------
-<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: Saturday, April 23, 9:41 AM GMT+1</p>
+<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: Saturday, April 23, 9:47 AM GMT+1</p>
 <p align="center">
   <img src="https://github.com/bpsmartdesign/bpsmartdesign/workflows/README%20build/badge.svg" />
   <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=bpsmartdesign">
