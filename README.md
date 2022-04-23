@@ -1,6 +1,6 @@
 <h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey! Nice to see you.</h1>
 
-<p>Welcome 😊! </br> I'm Paul, Software Engineer from <img src="https://img.icons8.com/fluency/48/000000/cameroon-circular.png" width="13"/> <b>Douala, Cameroon</b>.</p>
+<p>Welcome 😊! </br> I'm Paul, Software Engineer from  <img src="https://img.icons8.com/fluency/48/000000/cameroon-circular.png" width="15" style="transform: translateY(3px)"/> <b><em>Douala, Cameroon</em></b>.</p>
 <h3>Things I code with</h3>
 <p>
   <img  height="20" alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
@@ -24,3 +24,7 @@
   <img  height="20" alt="Nodejs" src="https://img.shields.io/badge/-Nodejs-43853d?style=flat-square&logo=Node.js&logoColor=white" />
   <img  height="20" alt="Laravel" src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
 </p>
+
+------------
+<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: Saturday, April 23, 8:31 AM GMT+1</p>
+<p align="center"><img src="https://github.com/bpsmartdesign/bpsmartdesign/workflows/README%20build/badge.svg" /> <img alt="Stars" src="https://img.shields.io/github/stars/bpsmartdesign/bpsmartdesign?style=flat-square&labelColor=343b41"/> <img alt="Forks" src="https://img.shields.io/github/forks/bpsmartdesign/bpsmartdesign?style=flat-square&labelColor=343b41"/></p>
