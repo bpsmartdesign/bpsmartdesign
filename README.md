@@ -51,17 +51,17 @@ const bpsmartdesign = {
 
 <h3>Github stats ...</h3>
 <p>
-  <img height="180" width="70%" alt="bpsmartdesign's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=bpsmartdesign&count_private=true&show_icons=true&theme=onedark" />
-  <img height="180" width="70%" alt="bpsmartdesign's Top langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bpsmartdesign&count_private=true&&theme=onedark&hide=css,html,php,blade&langs_count=3" />
+  <img alt="bpsmartdesign's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=bpsmartdesign&count_private=true&show_icons=true&theme=onedark" />
+  <img alt="bpsmartdesign's Top langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bpsmartdesign&count_private=true&&theme=onedark&hide=css,html,php,blade&langs_count=3" />
 </p>
 <p>
-  <img height="110" width="50%" alt="bpsmartdesign's GitHub stats" src="https://github-readme-stats.vercel.app/api/pin/?username=bpsmartdesign&repo=portfolio-v2&count_private=true&show_icons=true&theme=onedark" />
-  <img height="110" width="50%" alt="bpsmartdesign's GitHub stats" src="https://github-readme-stats.vercel.app/api/pin/?username=bpsmartdesign&repo=portfolio-v2&count_private=true&show_icons=true&theme=onedark" />
+  <img alt="bpsmartdesign's GitHub stats" src="https://github-readme-stats.vercel.app/api/pin/?username=bpsmartdesign&repo=portfolio-v2&count_private=true&show_icons=true&theme=onedark" />
+  <img alt="bpsmartdesign's GitHub stats" src="https://github-readme-stats.vercel.app/api/pin/?username=bpsmartdesign&repo=portfolio-v2&count_private=true&show_icons=true&theme=onedark" />
 </p>
 
 ------------
 
-<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: Saturday, April 23, 10:53 AM GMT+1</p>
+<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: Saturday, April 23, 10:55 AM GMT+1</p>
 <p align="center">
   <img src="https://github.com/bpsmartdesign/bpsmartdesign/workflows/README%20build/badge.svg" />
   <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=bpsmartdesign">
