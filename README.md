@@ -5,7 +5,7 @@
 ```javascript
 const bpsmartdesign = {
   pronouns: "He" | "Him",
-  code: [Javascript, Typescript, HTML, CSS, Php],
+  code: ["Javascript", "Typescript", "HTML", "CSS", "Php"],
   askMeAbout: ["web dev", "tech", "app dev", "mobile dev", "chess"],
   technologies: {
         frontEnd: {
@@ -13,7 +13,7 @@ const bpsmartdesign = {
           Vue: ["Vue Js", "Vuex",  "Nuxt"],
           misc: ["Tailwind", "Ant design", "Vuetify", "i18n", "Figma", "Photoshop", ...]
         },
-        backEnd: Node", "Express", "laravel"],
+        backEnd: ["Node", "Express", "laravel"],
         mobile: ["Android Development", "React Native"],
         databases: ["PostgreSQL", "MySql", "sqlite"],
     },
@@ -51,7 +51,7 @@ const bpsmartdesign = {
 
 
 ------------
-<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: Saturday, April 23, 9:53 AM GMT+1</p>
+<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: Saturday, April 23, 9:58 AM GMT+1</p>
 <p align="center">
   <img src="https://github.com/bpsmartdesign/bpsmartdesign/workflows/README%20build/badge.svg" />
   <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=bpsmartdesign">
