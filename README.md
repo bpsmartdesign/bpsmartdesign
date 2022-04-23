@@ -49,19 +49,19 @@ const bpsmartdesign = {
   <img  height="20" alt="Laravel" src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
 </p>
 
-[![bpsmartdesign's GitHub stats](https://github-readme-stats.vercel.app/api?username=bpsmartdesign&count_private=true&show_icons=true&theme=onedark)](https://github.com/bpsmartdesign/bpsmartdesign)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bpsmartdesign&count_private=true&show_icons=true&theme=onedark&hide=css,html,php,blade&langs_count=3)](https://github.com/bpsmartdesign/github-readme-stats)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=bpsmartdesign&repo=portfolio-v2&count_private=true&show_icons=true&theme=onedark)](https://github.com/bpsmartdesign/portfolio-v2)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=bpsmartdesign&repo=portfolio-v2&count_private=true&show_icons=true&theme=onedark)](https://github.com/bpsmartdesign/portfolio-v2)
-
-<p align="center">
-  <img width="50%" src="https://github-readme-stats.vercel.app/api/pin/?username=bpsmartdesign&repo=portfolio-v2&count_private=true&show_icons=true&theme=onedark" />
-  <img width="50%" src="https://github-readme-stats.vercel.app/api/pin/?username=bpsmartdesign&repo=portfolio-v2&count_private=true&show_icons=true&theme=onedark" />
+<h3>Github stats ...</h3>
+<p>
+  <img height="180" alt="bpsmartdesign's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=bpsmartdesign&count_private=true&show_icons=true&theme=onedark" />
+  <img height="180" alt="bpsmartdesign's Top langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bpsmartdesign&count_private=true&&theme=onedark&hide=css,html,php,blade&langs_count=3" />
+</p>
+<p>
+  <img height="90" alt="bpsmartdesign's GitHub stats" src="https://github-readme-stats.vercel.app/api/pin/?username=bpsmartdesign&repo=portfolio-v2&count_private=true&show_icons=true&theme=onedark" />
+  <img height="90" alt="bpsmartdesign's GitHub stats" src="https://github-readme-stats.vercel.app/api/pin/?username=bpsmartdesign&repo=portfolio-v2&count_private=true&show_icons=true&theme=onedark" />
 </p>
 
 ------------
 
-<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: Saturday, April 23, 10:40 AM GMT+1</p>
+<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: Saturday, April 23, 10:49 AM GMT+1</p>
 <p align="center">
   <img src="https://github.com/bpsmartdesign/bpsmartdesign/workflows/README%20build/badge.svg" />
   <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=bpsmartdesign">
