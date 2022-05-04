@@ -5,7 +5,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 */12 * * *"
 
 jobs:
   build:
@@ -23,6 +23,10 @@ jobs:
         with:
           path: node_modules
           key: ${{ runner.os }}-js-${{ hashFiles('package-lock.json') }}
+      - name: Set Github profile email
+        run: git config --local user.email bpsmartdesign@hotmail.com
+      - name: Set Github profile name
+        run: git config --local user.name 'BIYA Paul'
       - name: Install dependencies
         run: npm install
       - name: Generate README file
