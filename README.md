@@ -1,6 +1,6 @@
 <h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey! Nice to see you.</h1>
 
-<p>Welcome 😊! </br> I'm Paul, Software Engineer from <b><em><u>Douala, Cameroon</u></em></b> <img src="./assets/img/cameroon.png" width="18"/></p>
+<p>Welcome 😊! </br> I'm Paul, Senior Software Engineer, Designer from <b><em><u>Douala, Cameroon</u></em></b> <img src="./assets/img/cameroon.png" width="18"/></p>
 
 ```javascript
 const bpsmartdesign = {
@@ -64,7 +64,7 @@ const bpsmartdesign = {
 
 ------------
 
-<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: Sunday, May 29, 1:28 PM GMT+1</p>
+<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: Sunday, May 29, 7:30 PM GMT+1</p>
 <p align="center">
   <a href="https://dev.to/bpsmartdesign/how-to-create-an-awesome-github-profile-readme--oim">
     <small><em><u>Create your own !</u></em></small>
