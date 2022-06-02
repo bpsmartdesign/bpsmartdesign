@@ -30,12 +30,17 @@ jobs:
         run: node index.js
       - name: Commit and Push new README.md to the repository
         # uses: mikeal/publish-to-github-action@master
-        uses: stefanzweifel/git-auto-commit-action@v2.3.0
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Apply automatic changes
-          branch: -master
-
-          # Optional git params
-          commit_options: "--all"
+          branch: master
+          commit_options: "--no-verify --signoff"
+          file_pattern: .
+          repository: .
+          commit_user_name: BIYA Paul
+          commit_user_email: bpsmartdesign@hotmail.com
+          commit_author: BIYA Paul <bpsmartdesign@hotmail.com>
+          add_options: "-u"
+          push_options: "--force"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
