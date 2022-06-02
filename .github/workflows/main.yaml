@@ -36,6 +36,6 @@ jobs:
           branch: ${{ github.head_ref }}
 
           # Optional git params
-          commit_options: "--no-verify --signoff"
+          commit_options: "--all"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
