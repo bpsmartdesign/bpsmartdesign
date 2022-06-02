@@ -2,7 +2,7 @@
 
 <p>Welcome 😊! </br> I'm Paul, Senior Software Engineer, Designer from <b><em><u>Douala, Cameroon</u></em></b> <img src="./assets/img/cameroon.png" width="18"/></p>
 <p>
-  <a href="https://drive.google.com/file/d/1UNcOtj9udIRoyXM5hXJ-j2dwE3FseABp/view?usp=sharing" target="blank" alt="bpsmartdesign.resume.pdf">View my Resume 😎</a>
+  <a href="https://drive.google.com/file/d/1UNcOtj9udIRoyXM5hXJ-j2dwE3FseABp/view?usp=sharing" target="_blank" alt="bpsmartdesign.resume.pdf">View my Resume 😎</a>
   <br />
 </p>
 
@@ -68,7 +68,7 @@ const bpsmartdesign = {
 
 ------------
 
-<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: Thursday, June 2, 12:27 PM GMT+1</p>
+<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: Thursday, June 2, 12:29 PM GMT+1</p>
 <p align="center">
   <a href="https://dev.to/bpsmartdesign/how-to-create-an-awesome-github-profile-readme--oim">
     <small><em><u>Create your own !</u></em></small>
