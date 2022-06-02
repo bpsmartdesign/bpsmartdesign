@@ -2,8 +2,9 @@ name: README build
 
 on:
   push:
-    branches:
-      - master
+    branches: [master]
+  pull_request:
+    branches: [master]
   schedule:
     - cron: "0 */12 * * *"
 
@@ -28,6 +29,13 @@ jobs:
       - name: Generate README file
         run: node index.js
       - name: Commit and Push new README.md to the repository
-        uses: mikeal/publish-to-github-action@master
+        # uses: mikeal/publish-to-github-action@master
+        uses: stefanzweifel/git-auto-commit-action@v2.3.0
+        with:
+          commit_message: Apply automatic changes
+          branch: ${{ github.head_ref }}
+
+          # Optional git params
+          commit_options: "--no-verify --signoff"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
