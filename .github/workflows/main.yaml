@@ -11,6 +11,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      content: write
 
     steps:
       - name: Checkout current repository to Master branch
