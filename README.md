@@ -1,3 +1,4 @@
+<img src="./assets/img/header.png" /><br/>
 <h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey! Nice to see you.</h1>
 
 <p>Welcome 😊! </br> I'm Paul, Senior Software Engineer, Designer from <b><em><u>Douala, Cameroon</u></em></b> <img src="./assets/img/cameroon.png" width="18"/></p>
@@ -68,7 +69,7 @@ const bpsmartdesign = {
 
 ------------
 
-<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: Wednesday, June 22, 1:22 PM GMT+1</p>
+<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: Wednesday, June 22, 5:43 PM GMT+1</p>
 <p align="center">
   <a href="https://dev.to/bpsmartdesign/how-to-create-an-awesome-github-profile-readme--oim">
     <small><em><u>Create your own !</u></em></small>
