@@ -1,5 +1,5 @@
 <img src="./assets/img/header.png" /><br/>
-<h1>Hey! Nice to see you <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/></h1>
+<h1>Hey! Nice to see you <img src="./assets/img/homer-wahoo.gif" width="30"/></h1>
 
 <p>
   My name is BIYA Paul, I am Senior Software Engineer, Designer and Product Designer from <b><em><u>Douala, Cameroon</u></em></b> <img src="./assets/img/cameroon.png" width="18"/><br/>
@@ -8,15 +8,16 @@
 
 
 ```javascript
-const bpsmartdesign = {
+let _bpsmartdesign = {
   pronouns: "He" | "Him",
-  code: ["Javascript", "Typescript", "HTML", "CSS", "Php"],
+  code: ["Javascript", "Typescript", "HTML / CSS", "Php"],
+  design: ["Figma", "Adobe Photoshop", "Adobe Illustrator"],
   askMeAbout: ["web dev", "tech", "app dev", "mobile dev", "chess"],
   technologies: {
         frontEnd: {
           React: ["React Js", "Umi", "Next", ...],
           Vue: ["Vue Js", "Vuex",  "Nuxt", ...],
-          misc: ["Tailwind", "Ant design", "Vuetify", "i18n", "Figma", "Photoshop", ...]
+          misc: ["Tailwind", "Ant design", "Vuetify", "i18n", "Sass", "vuepress", ...]
         },
         backEnd: ["Node", "Express", "laravel"],
         mobile: ["Android Development", "React Native"],
@@ -56,7 +57,7 @@ const bpsmartdesign = {
 
 <h3>Github stats ...</h3>
 <p>
-  <img height="195" alt="bpsmartdesign's Top langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bpsmartdesign&count_private=true&&theme=onedark&hide=css,html,php,blade&langs_count=3" />
+  <img height="195" alt="bpsmartdesign's Top langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bpsmartdesign&count_private=true&&theme=onedark&hide=css,html,php,blade&langs_count=5" />
   <img alt="bpsmartdesign's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=bpsmartdesign&count_private=true&show_icons=true&theme=onedark" />
 </p>
 
@@ -69,7 +70,7 @@ const bpsmartdesign = {
 
 ------------
 
-<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: Thursday, June 23, 7:13 AM GMT+1</p>
+<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: Thursday, June 23, 12:35 PM GMT+1</p>
 <p align="center">
   <a href="https://dev.to/bpsmartdesign/how-to-create-an-awesome-github-profile-readme--oim">
     <small><em><u>Create your own !</u></em></small>
