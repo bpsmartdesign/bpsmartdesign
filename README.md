@@ -68,7 +68,7 @@ let _bpsmartdesign = {
 
 ------------
 
-<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: Monday, January 23, 5:47 AM GMT+1</p>
+<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: Monday, January 23, 5:50 AM GMT+1</p>
 <p align="center">
   <a href="https://dev.to/bpsmartdesign/how-to-create-an-awesome-github-profile-readme--oim">
     <small><em><u>Create your own !</u></em></small>
@@ -80,7 +80,6 @@ let _bpsmartdesign = {
   <img alt="Forks" src="https://img.shields.io/github/forks/bpsmartdesign/bpsmartdesign?style=flat-square&labelColor=343b41"/>
   <img alt="Forks" src="https://img.shields.io/github/sponsors/bpsmartdesign?style=flat-square&labelColor=343b41"/>
   <img alt="Forks" src="https://img.shields.io/github/license/bpsmartdesign/bpsmartdesign?style=flat-square&labelColor=343b41"/>
-  <img alt="Forks" src="https://img.shields.io/website?&up_message=online&url=https%3A%2F%2Fbpsmartdesign.tk?style=flat-square&labelColor=343b41"/>
   <img alt="Forks" src="https://visitor-badge.glitch.me/badge?page_id=bpsmartdesign.visitor-badge"/>  
 </p>
 
