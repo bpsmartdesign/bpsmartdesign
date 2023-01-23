@@ -66,15 +66,9 @@ let _bpsmartdesign = {
 <a href="https://github.com/bpsmartdesign"><img src="https://img.shields.io/github/stars/bpsmartdesign?style=social"></a>
 <a href="https://github.com/bpsmartdesign"><img src="https://img.shields.io/discord/967849006078263306?style=social"></a>
 
-## Suport
-
-<a href="https://www.buymeacoffee.com/bpsmartdesign">
-  <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a Sandwitch 😉&emoji=🥪&slug=bpsmartdesign&button_colour=5F7FFF&font_colour=ffffff&font_family=Inter&outline_colour=000000&coffee_colour=FFDD00" />
-</a>
-
 ------------
 
-<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: Monday, January 23, 5:43 AM GMT+1</p>
+<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: Monday, January 23, 5:46 AM GMT+1</p>
 <p align="center">
   <a href="https://dev.to/bpsmartdesign/how-to-create-an-awesome-github-profile-readme--oim">
     <small><em><u>Create your own !</u></em></small>
@@ -87,5 +81,13 @@ let _bpsmartdesign = {
   <img alt="Forks" src="https://img.shields.io/github/sponsors/bpsmartdesign?style=flat-square&labelColor=343b41"/>
   <img alt="Forks" src="https://img.shields.io/github/license/bpsmartdesign/bpsmartdesign?style=flat-square&labelColor=343b41"/>
   <img alt="Forks" src="https://img.shields.io/website?&up_message=online&url=https%3A%2F%2Fbpsmartdesign.tk?style=flat-square&labelColor=343b41"/>
-  <img alt="Forks" src="https://visitor-badge.glitch.me/badge?page_id=bpsmartdesign.visitor-badge"/>
+  <img alt="Forks" src="https://visitor-badge.glitch.me/badge?page_id=bpsmartdesign.visitor-badge"/>  
+</p>
+
+---
+
+<p align="center">
+  <a href="https://www.buymeacoffee.com/bpsmartdesign">
+    <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a Sandwitch 😉&emoji=🥪&slug=bpsmartdesign&button_colour=5F7FFF&font_colour=ffffff&font_family=Inter&outline_colour=000000&coffee_colour=FFDD00" />
+  </a>
 </p>
