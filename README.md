@@ -68,7 +68,7 @@ let _bpsmartdesign = {
 
 ------------
 
-<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: Wednesday, January 25, 1:19 PM GMT+1</p>
+<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: Wednesday, January 25, 5:47 PM GMT+1</p>
 <p align="center">
   <a href="https://dev.to/bpsmartdesign/how-to-create-an-awesome-github-profile-readme--oim">
     <small><em><u>Create your own !</u></em></small>
@@ -87,6 +87,6 @@ let _bpsmartdesign = {
 
 <p align="center">
   <a href="https://www.buymeacoffee.com/bpsmartdesign">
-    <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a Sandwitch 😉&emoji=🥪&slug=bpsmartdesign&button_colour=5F7FFF&font_colour=ffffff&font_family=Inter&outline_colour=000000&coffee_colour=FFDD00" />
+    <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a Sandwich 😉&emoji=🥪&slug=bpsmartdesign&button_colour=5F7FFF&font_colour=ffffff&font_family=Inter&outline_colour=000000&coffee_colour=FFDD00" />
   </a>
 </p>
