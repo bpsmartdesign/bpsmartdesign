@@ -3,7 +3,7 @@
 
 <p>
   My name is BIYA Paul, I am Senior Software Engineer, Designer and Product Manager from <b><em><u>Douala, Cameroon</u></em></b> <img src="./assets/img/cameroon.png" width="18"/><br/>
-  <a href="https://drive.google.com/file/d/1UNcOtj9udIRoyXM5hXJ-j2dwE3FseABp/view?usp=sharing" target="_blank" alt="bpsmartdesign.resume.pdf"><em>View my Resume</em> 😎</a>
+  <a href="https://drive.google.com/file/d/1cr2z1LFRIHF-FkIKxZluD6zRstUYvHXS/view?usp=sharing" target="_blank" alt="bpsmartdesign.resume.pdf"><em>View my Resume</em> 😎</a>
 </p>
 
 ```javascript
@@ -68,7 +68,7 @@ let _bpsmartdesign = {
 
 ------------
 
-<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: Tuesday, June 20, 1:52 AM GMT+1</p>
+<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br>Last refresh: Tuesday, June 20, 4:00 AM GMT+1</p>
 <p align="center">
   <a href="https://dev.to/bpsmartdesign/how-to-create-an-awesome-github-profile-readme--oim">
     <small><em><u>Create your own !</u></em></small>
