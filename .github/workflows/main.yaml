@@ -38,9 +38,9 @@ jobs:
           commit_options: "--no-verify --signoff"
           file_pattern: .
           repository: .
-          commit_user_name: BIYA Paul
-          commit_user_email: bpsmartdesign@hotmail.com
-          commit_author: BIYA Paul <bpsmartdesign@hotmail.com>
+          # commit_user_name: BIYA Paul
+          # commit_user_email: bpsmartdesign@hotmail.com
+          # commit_author: BIYA Paul <bpsmartdesign@hotmail.com>
           add_options: "--all"
           push_options: "--force"
         env:
