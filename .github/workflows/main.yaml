@@ -1,0 +1,47 @@
+name: README build
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+  schedule:
+    - cron: "0 */6 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout current repository to Master branch
+        uses: actions/checkout@v2
+      - name: Setup NodeJs 13.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: "13.x"
+      - name: Cache dependencies and build outputs to improve workflow execution time.
+        uses: actions/cache@v1
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-js-${{ hashFiles('package-lock.json') }}
+      - name: Install dependencies
+        run: npm install
+      - name: Generate README file
+        run: node index.js
+      - name: Commit and Push new README.md to the repository
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Apply automatic changes
+          branch: master
+          commit_options: "--no-verify --signoff"
+          file_pattern: .
+          repository: .
+          # commit_user_name: BIYA Paul
+          # commit_user_email: bpsmartdesign@hotmail.com
+          # commit_author: BIYA Paul <bpsmartdesign@hotmail.com>
+          add_options: "--all"
+          push_options: "--force"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
