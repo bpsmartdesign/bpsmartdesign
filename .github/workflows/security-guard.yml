@@ -1,0 +1,105 @@
+# Garde anti-maliciel — à copier dans .github/workflows/security-guard.yml de chaque dépôt.
+#
+# Contrairement à une simple liste de signatures, cette garde vérifie des
+# TECHNIQUES d'attaque, pas seulement les chaînes d'un maliciel nommé. Elle
+# attrape donc aussi les variantes et d'autres familles qui utilisent les mêmes
+# procédés (auto-exécution d'éditeur, fichier déguisé, config piégée).
+#
+# Quatre contrôles, du plus générique au plus spécifique :
+#   A. Auto-exécution : tout tasks.json en folderOpen, tout settings.json
+#      autorisant les tâches automatiques — quel que soit son contenu.
+#   B. Fichier déguisé : toute police/image suivie dont les octets sont en
+#      réalité du texte ou du script (pas la signature binaire attendue).
+#   C. Config piégée : ligne anormalement longue en fin de fichier de config
+#      (technique du payload collé après l'export).
+#   D. Signatures connues : les marqueurs PolinRider, en dernier filet.
+#
+# Les fichiers qui parlent LÉGITIMEMENT du sujet (docs, articles) sont exclus.
+name: Garde anti-maliciel
+on: [push, pull_request]
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Analyse des techniques d'attaque
+        shell: bash
+        run: |
+          set -uo pipefail
+          fail=0
+          note() { echo "::error::$1"; fail=1; }
+
+          # Exclusions : documentation qui parle du sujet sans être une menace.
+          is_excluded() {
+            case "$1" in
+              .github/workflows/*) return 0 ;;
+              *seeds/polinrider/*|*polinrider*|*POLINRIDER*) return 0 ;;
+              *SECURITY*|*security-guard*) return 0 ;;
+              *) return 1 ;;
+            esac
+          }
+
+          files=$(git ls-files)
+
+          # ── A. Auto-exécution d'éditeur ──────────────────────────────────
+          for f in $files; do
+            is_excluded "$f" && continue
+            case "$f" in
+              */tasks.json|.vscode/tasks.json|tasks.json)
+                if grep -qE '"?(runOn|folderOpen)"?' "$f" 2>/dev/null; then
+                  note "Tâche à exécution automatique (folderOpen) : $f"
+                fi ;;
+              */settings.json|.vscode/settings.json|settings.json)
+                if grep -qE 'allowAutomaticTasks' "$f" 2>/dev/null; then
+                  note "Réglage autorisant les tâches automatiques : $f"
+                fi ;;
+            esac
+          done
+
+          # ── B. Fichier déguisé (police/image = texte) ────────────────────
+          # Une vraie police/image commence par une signature binaire connue.
+          # Si les premiers octets sont du texte imprimable, c'est un leurre.
+          is_text_head() {
+            # vrai si les 16 premiers octets sont tous ASCII imprimable/espace
+            head -c 16 "$1" 2>/dev/null | LC_ALL=C grep -qE '^[[:print:][:space:]]{16}$'
+          }
+          for f in $files; do
+            is_excluded "$f" && continue
+            case "$f" in
+              *.woff2|*.woff|*.ttf|*.otf|*.eot|*.png|*.jpg|*.jpeg|*.gif|*.ico|*.webp)
+                if [ -f "$f" ] && is_text_head "$f"; then
+                  note "Fichier binaire attendu mais contenu texte (déguisé) : $f"
+                fi ;;
+            esac
+          done
+
+          # ── C. Config piégée (ligne géante) ──────────────────────────────
+          for f in $files; do
+            is_excluded "$f" && continue
+            case "$f" in
+              *tailwind.config.*|*vite.config.*|*eslint.config.*|*postcss.config.*|*nuxt.config.*|*.config.js|*.config.mjs|*.config.cjs)
+                if [ -f "$f" ] && LC_ALL=C awk '{ if (length($0) > 5000) exit 1 }' "$f"; then :; else
+                  note "Ligne anormalement longue dans une config (payload collé ?) : $f"
+                fi ;;
+            esac
+          done
+
+          # ── D. Signatures connues (dernier filet) ────────────────────────
+          # Motif en fragments pour que ce fichier ne se signale pas lui-même.
+          M='global\.i="A''10|_0x''1574|temp_auto_push|temp_interactive_push'
+          sig=$(git grep -l -I -E "$M" -- . \
+            ':!.github/workflows/**' ':!**/seeds/polinrider/**' ':!**/*polinrider*' 2>/dev/null || true)
+          if [ -n "$sig" ]; then
+            while IFS= read -r f; do [ -n "$f" ] && note "Signature de maliciel connue : $f"; done <<< "$sig"
+          fi
+
+          if [ "$fail" -ne 0 ]; then
+            echo ""
+            echo "Build bloqué : comportement de type maliciel détecté ci-dessus."
+            echo "Faux positif ? Excluez le chemin ou vérifiez le fichier."
+            exit 1
+          fi
+          echo "Aucun comportement suspect détecté."
