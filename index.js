@@ -16,7 +16,7 @@ let DATA = {
     hour: "numeric",
     minute: "numeric",
     timeZoneName: "short",
-    timeZone: "africa/Douala",
+    timeZone: "Africa/Douala",
   }),
 };
 

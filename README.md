@@ -1,40 +1,106 @@
-# Paul BIYA — bpsmartdesign
+<img src="./assets/img/header.png" /><br/>
+<h1>Hey! Nice to see you <img src="./assets/img/homer-wahoo.gif" width="35"/></h1>
 
-**Senior Product Engineer · Senior Full-Stack Engineer — Vue.js / Nuxt · Node.js / NestJS · TypeScript · React Native**
+<p>
+  My name is BIYA Paul, I am a <b>Senior Product Engineer</b> — Senior Full-Stack Engineer · Vue.js / Nuxt · Node.js / NestJS · TypeScript · React Native — from <b><em><u>Douala, Cameroon</u></em></b> <img src="./assets/img/cameroon.png" width="18"/><br/>
+  I design and ship complete web and mobile products on my own — architecture, API, web, mobile and design system — for teams in Europe, the Americas and Africa.<br/>
+  <a href="https://bpsmartdesign.dev/en" target="_blank"><em>Visit my portfolio</em> 🚀</a> ·
+  <a href="https://bpsmartdesign.dev/cv/bpsmartdesign-cv-en.pdf" target="_blank" alt="bpsmartdesign-cv-en.pdf"><em>View my Resume</em> 😎</a> ·
+  <a href="https://bpsmartdesign.dev/cv/bpsmartdesign-cv-fr.pdf" target="_blank" alt="bpsmartdesign-cv-fr.pdf"><em>CV en français</em> 🇫🇷</a>
+</p>
 
-I design and ship complete web and mobile products on my own — architecture, API, web, mobile and design system — for teams in Europe, the Americas and Africa. Based in Douala, Cameroon (UTC+1), working fully remote.
+```javascript
+let _bpsmartdesign = {
+  pronouns: "He" | "Him",
+  role: "Senior Product Engineer · Founder of Think Dev",
+  experience: "12 years of practice, 10 in software engineering",
+  code: ["TypeScript", "JavaScript", "PHP", "Python", "Kotlin"],
+  design: ["Figma", "Adobe Illustrator", "Design systems", "Design tokens"],
+  askMeAbout: ["web dev", "mobile dev", "design systems", "app security", "chess"],
+  technologies: {
+    frontEnd: {
+      Vue: ["Vue.js (Vue 3)", "Nuxt 3/4", "Vuex", ...],
+      React: ["React", "Umi", "Next", ...],
+      misc: ["Tailwind CSS", "i18n / RTL", "Accessibility", "SEO", ...]
+    },
+    backEnd: ["Node.js", "NestJS", "AdonisJS", "Nitro", "Laravel"],
+    mobile: ["React Native", "Expo", "Capacitor", "Flutter", "Wear OS"],
+    realTime: ["WebSocket", "WebRTC", "Push notifications", "Firebase"],
+    databases: ["PostgreSQL", "MySQL", "Redis", "SQLite"],
+    devOps: ["Docker", "Nginx", "Linux", "GitLab CI"],
+  },
+  architecture: ["monorepo", "event-driven", "design system pattern", "MVC"],
+  openSource: {
+    shurikenUi: "#3 contributor — 87 merged PRs",
+    packages: ["sanitize-vue3", "rrweb-player-vue3", "we-hate-polinrider"],
+  },
+  techCommunities: {
+    _founder: "Think Dev",
+    _speaking: "French, English",
+  },
+  availableFor: "Long-term freelance or contract work, full remote"
+}
+```
+<h3>Open source ...</h3>
+<ul>
+  <li><a href="https://github.com/shuriken-ui/nuxt"><b>Shuriken UI</b></a> — #3 contributor, 87 merged PRs on the design system behind Tairo and Vuero</li>
+  <li><a href="https://github.com/th1nkdev-io/we-hate-polinrider"><b>we-hate-polinrider</b></a> — toolkit and playbook to protect against, detect and recover from the PolinRider malware</li>
+  <li><a href="https://github.com/bpsmartdesign/sanitize-vue3"><b>sanitize-vue3</b></a> — Vue 3 component for sanitising and rendering HTML</li>
+  <li><a href="https://github.com/bpsmartdesign/rrweb-player-vue3"><b>rrweb-player-vue3</b></a> — Vue 3 port of the rrweb session player</li>
+</ul>
 
-**[Portfolio](https://bpsmartdesign.dev/en)** · **[CV (PDF)](https://bpsmartdesign.dev/cv/bpsmartdesign-cv-en.pdf)** · [CV en français](https://bpsmartdesign.dev/cv/bpsmartdesign-cv-fr.pdf) · [LinkedIn](https://www.linkedin.com/in/bpsmartdesign) · [Book a call](https://bpsmartdesign.dev/en/book)
+<h3>Things I code with ...</h3>
+<p>
+  <img  height="20" alt="Vue Js" src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D" />
+  <img  height="20" alt="Nuxt" src="https://img.shields.io/badge/-Nuxt-00DC82?style=flat-square&logo=nuxt&logoColor=white" />
+  <img  height="20" alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
+  <img  height="20" alt="JavaScript" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+  <img  height="20" alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
+  <img  height="20" alt="React Native" src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img  height="20" alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img  height="20" alt="Nodejs" src="https://img.shields.io/badge/-Nodejs-43853d?style=flat-square&logo=Node.js&logoColor=white" />
+  <img  height="20" alt="NestJS" src="https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" />
+  <img  height="20" alt="Laravel" src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
+  <img  height="20" alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img  height="20" alt="MySQL" src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img  height="20" alt="Redis" src="https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
+  <img  height="20" alt="Docker" src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <img  height="20" alt="git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
+  <img  height="20" alt="Playwright" src="https://img.shields.io/badge/-Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" />
+  <img  height="20" alt="Figma" src="https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" />
+  <img  height="20" alt="Sass" src="https://img.shields.io/badge/-Sass-CC6699?style=flat-square&logo=sass&logoColor=white" />
+  <img  height="20" alt="npm" src="https://img.shields.io/badge/-NPM-CB3837?style=flat-square&logo=npm&logoColor=white" />
+  <img  height="20" alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+  <img  height="20" alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img  height="20" alt="Prettier" src="https://img.shields.io/badge/-Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=white" />
+</p>
 
-## At a glance
+<h3>Github stats ...</h3>
+<p>
+  <img height="195" alt="bpsmartdesign's Top langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bpsmartdesign&count_private=true&&theme=onedark&hide=css,html,blade&langs_count=4" />
+  <img alt="bpsmartdesign's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=bpsmartdesign&count_private=true&show_icons=true&theme=onedark" />
+</p>
 
-- **12 years** of practice, 10 in software engineering
-- **#3 contributor to [Shuriken UI](https://github.com/shuriken-ui/nuxt/graphs/contributors)** — 87 merged PRs on the design system behind Tairo and Vuero
-- Teams in **France, the Americas and Africa**
-- Products shipped **end to end**, from architecture to deployment
-- Founder of **[Think Dev](https://github.com/th1nkdev-io)**, a product studio (SmartKYC, AjustOne, Ordyma, EHES Pay, ShiftRitual…)
+<h3>Get In touch ...</h3>
+<a href="https://bpsmartdesign.dev/en/book"><img src="https://img.shields.io/badge/Book_a_call-bpsmartdesign.dev-d35400?style=social"></a>
+<a href="https://www.linkedin.com/in/bpsmartdesign"><img src="https://img.shields.io/badge/LinkedIn-bpsmartdesign-0A66C2?style=social&logo=linkedin"></a>
+<a href="https://twitter.com/bpsmartdesign"><img src="https://img.shields.io/twitter/follow/bpsmartdesign?label=Follow&style=social"></a>
+<a href="https://github.com/bpsmartdesign"><img src="https://img.shields.io/github/followers/bpsmartdesign?style=social"></a>
+<a href="https://github.com/bpsmartdesign"><img src="https://img.shields.io/github/stars/bpsmartdesign?style=social"></a>
+<a href="https://github.com/bpsmartdesign"><img src="https://img.shields.io/discord/967849006078263306?style=social"></a>
 
-## Open source
+------------
 
-| Project | What it is |
-| --- | --- |
-| [shuriken-ui/nuxt](https://github.com/shuriken-ui/nuxt) | Design-system engineering on the open-source library behind Tairo and Vuero (3rd contributor) |
-| [we-hate-polinrider](https://github.com/th1nkdev-io/we-hate-polinrider) | Toolkit and playbook to protect against, detect and recover from the PolinRider supply-chain malware: read-only scanners, clean-up that dry-runs by default |
-| [sanitize-vue3](https://github.com/bpsmartdesign/sanitize-vue3) | Vue 3 component for sanitising and rendering HTML ([npm](https://www.npmjs.com/package/sanitize-vue3)) |
-| [rrweb-player-vue3](https://github.com/bpsmartdesign/rrweb-player-vue3) | Vue 3 port of the rrweb session player, published and maintained |
-
-## Stack
-
-- **Front end:** Vue.js (Vue 3), Nuxt 3/4, TypeScript, JavaScript, React, Tailwind CSS
-- **Mobile:** React Native, Expo, Capacitor, Flutter, Kotlin, Wear OS
-- **Back end:** Node.js, NestJS, AdonisJS, Laravel, PHP, Python, REST APIs
-- **Real-time:** WebSocket, WebRTC, push notifications, Firebase
-- **Data:** PostgreSQL, MySQL, Redis, SQLite, Drizzle
-- **Infrastructure:** Docker, Nginx, Linux, GitLab CI, CI/CD
-- **Quality:** Playwright, automated testing, accessibility, SEO, i18n / RTL
-- **Design:** Figma, design systems, design tokens
-
-## Work with me
-
-Available for long-term freelance or contract work — 20–40 h/week with 6 h overlap with CET, invoiced in EUR or USD.
-Start from **[bpsmartdesign.dev](https://bpsmartdesign.dev/en)** or **[book a call](https://bpsmartdesign.dev/en/book)**.
+<p align="center">This <i>README</i> file is generated <b>automatically</b>!</br>Last refresh: Monday, November 16 at 1:39 PM GMT+1</p>
+<p align="center">
+  <a href="https://dev.to/bpsmartdesign/how-to-create-an-awesome-github-profile-readme--oim">
+    <small><em><u>Create your own !</u></em></small>
+  </a>
+</p>
+<p align="center">
+  <img src="https://github.com/bpsmartdesign/bpsmartdesign/workflows/README%20build/badge.svg" />
+  <img alt="Stars" src="https://img.shields.io/github/stars/bpsmartdesign/bpsmartdesign?style=flat-square&labelColor=343b41"/>
+  <img alt="Forks" src="https://img.shields.io/github/forks/bpsmartdesign/bpsmartdesign?style=flat-square&labelColor=343b41"/>
+  <img alt="Sponsors" src="https://img.shields.io/github/sponsors/bpsmartdesign?style=flat-square&labelColor=343b41"/>
+  <img alt="License" src="https://img.shields.io/github/license/bpsmartdesign/bpsmartdesign?style=flat-square&labelColor=343b41"/>
+</p>
