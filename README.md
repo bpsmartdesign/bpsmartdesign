@@ -18,37 +18,34 @@
   <a href="https://bpsmartdesign.dev/en/book"><img alt="Book a call" src="https://img.shields.io/badge/Book_a_call-30_min-17121f?style=for-the-badge" /></a>
 </p>
 
-```javascript
-let _bpsmartdesign = {
-  pronouns: "He" | "Him",
-  role: "Senior Product Engineer · Founder of Think Dev",
-  experience: "12 years of practice, 10 in software engineering",
-  code: ["TypeScript", "JavaScript", "PHP", "Python", "Kotlin"],
-  design: ["Figma", "Adobe Illustrator", "Design systems", "Design tokens"],
-  askMeAbout: ["web dev", "mobile dev", "design systems", "app security", "chess"],
-  technologies: {
-    frontEnd: {
-      Vue: ["Vue.js (Vue 3)", "Nuxt 3/4", "Vuex", ...],
-      React: ["React", "Umi", "Next", ...],
-      misc: ["Tailwind CSS", "i18n / RTL", "Accessibility", "SEO", ...]
-    },
-    backEnd: ["Node.js", "NestJS", "AdonisJS", "Nitro", "Laravel"],
-    mobile: ["React Native", "Expo", "Capacitor", "Flutter", "Wear OS"],
-    realTime: ["WebSocket", "WebRTC", "Push notifications", "Firebase"],
-    databases: ["PostgreSQL", "MySQL", "Redis", "SQLite"],
-    devOps: ["Docker", "Nginx", "Linux", "GitLab CI"],
+```typescript
+// 👋  bpsmartdesign.dev — Senior Product Engineer
+const bpsmartdesign = {
+  name:        "Paul BIYA",
+  pronouns:    "he/him",
+  basedIn:     "Douala, Cameroon 🇨🇲  (UTC+1)",
+  experience:  "12 years of practice — 10 in software engineering",
+  founderOf:   "Think Dev — product studio",
+  languages:   ["French", "English"],
+
+  stack: {
+    web:       ["Vue.js", "Nuxt", "TypeScript", "React", "Tailwind CSS"],
+    mobile:    ["React Native", "Expo", "Capacitor", "Flutter", "Kotlin"],
+    backend:   ["Node.js", "NestJS", "AdonisJS", "Laravel", "Python"],
+    realtime:  ["WebSocket", "WebRTC", "Push notifications"],
+    data:      ["PostgreSQL", "MySQL", "Redis", "SQLite"],
+    devops:    ["Docker", "Nginx", "Linux", "GitLab CI"],
+    design:    ["Figma", "Design systems", "Design tokens"],
   },
-  architecture: ["monorepo", "event-driven", "design system pattern", "MVC"],
+
   openSource: {
-    shurikenUi: "#3 contributor — 87 merged PRs",
-    packages: ["sanitize-vue3", "rrweb-player-vue3", "we-hate-polinrider"],
+    "shuriken-ui": "#3 contributor — 87 merged PRs",
+    packages:      ["sanitize-vue3", "rrweb-player-vue3", "we-hate-polinrider"],
   },
-  techCommunities: {
-    _founder: "Think Dev",
-    _speaking: "French, English",
-  },
-  availableFor: "Long-term freelance or contract work, full remote"
-}
+
+  askMeAbout:  ["product engineering", "design systems", "app security", "chess ♟️"],
+  available:   "Long-term freelance or contract · full remote · EUR / USD",
+} as const;
 ```
 <h3>Open source ...</h3>
 <ul>
@@ -126,10 +123,9 @@ let _bpsmartdesign = {
 </table>
 
 <h3>Github stats ...</h3>
-<p>
-  <img height="170" alt="bpsmartdesign's GitHub stats" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=bpsmartdesign&theme=onedark" />
-  <img height="170" alt="bpsmartdesign's top languages" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=bpsmartdesign&theme=onedark" />
-  <img height="170" alt="bpsmartdesign's languages by commit" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=bpsmartdesign&theme=onedark" />
+<p align="center">
+  <img width="49%" alt="bpsmartdesign's GitHub stats" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=bpsmartdesign&theme=onedark" />
+  <img width="49%" alt="bpsmartdesign's top languages" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=bpsmartdesign&theme=onedark&exclude=SCSS,Mustache,HTML,CSS,Hack,Dockerfile" />
 </p>
 
 <h3>Get In touch ...</h3>
@@ -142,7 +138,7 @@ let _bpsmartdesign = {
 
 ------------
 
-<p align="center">This <i>README</i> file is generated <b>automatically</b>!</br>Last refresh: Monday, November 16 at 1:48 PM GMT+1</p>
+<p align="center">This <i>README</i> file is generated <b>automatically</b>!</br>Last refresh: Monday, November 16 at 1:51 PM GMT+1</p>
 <p align="center">
   <a href="https://dev.to/bpsmartdesign/how-to-create-an-awesome-github-profile-readme--oim">
     <small><em><u>Create your own !</u></em></small>
